@@ -32,16 +32,19 @@ At its core, this project combines graph theory, data structures, and time-serie
 ---
 
 ## 🏗️ System Architecture
+
+```text
 User Query
-↓
+   ↓
 HyponymsHandler
-├── WordNet (Graph Traversal)
-│ └── DirectedGraph (BFS)
-└── NGramMap (Time-Series Data)
-↓
+   ├── WordNet (Graph Traversal)
+   │       └── DirectedGraph (BFS)
+   └── NGramMap (Time-Series Data)
+   ↓
 Rank + Filter + Sort
-↓
+   ↓
 Final Output
+```
 
 ---
 
@@ -100,6 +103,8 @@ Final Output
 ---
 
 ## 📁 Project Structure
+
+```text
 ngordnet/
 ├── WordNet.java
 ├── DirectedGraph.java
@@ -107,11 +112,12 @@ ngordnet/
 ├── AutograderBuddy.java
 ├── NGramMap.java
 ├── data/
-│ ├── synsets.txt
-│ ├── hyponyms.txt
-│ ├── word_history.csv
-│ ├── year_history.csv
+│   ├── synsets.txt
+│   ├── hyponyms.txt
+│   ├── word_history.csv
+│   ├── year_history.csv
 ├── README.md
+```
 
 ---
 
